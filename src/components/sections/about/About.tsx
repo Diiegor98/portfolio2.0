@@ -1,6 +1,5 @@
 import AboutCards from "./AboutCards";
 import AboutDescription from "./AboutDescription";
-//import AboutSkills from "./AboutSkills";
 import BlurFade from "@/components/magicui/blur-fade";
 import ilustration from "../../../assets/ilustration1.png"
 
@@ -20,7 +19,6 @@ function About() {
             <AboutDescription />
           </BlurFade>
           <BlurFade delay={1} inView>
-            {/* <AboutSkills /> */}
             <img src={ilustration} alt="Representación mía" className="w-72" />
           </BlurFade>
         </div>

@@ -9,12 +9,12 @@ import Contact from "./components/sections/contact/Contact";
 function App() {
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-      <Header />
-      <Hero />
-      <About />
-      <Studies />
-      <Proyects />
-      <Contact />
+        <Header />
+        <Hero />
+        <About />
+        <Studies />
+        <Proyects />
+        <Contact />
     </ThemeProvider>
   );
 }

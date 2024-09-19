@@ -9,13 +9,23 @@ export default function HeroSocial() {
         <div className="flex items-center -mt-5">
           <Dock direction="middle">
             <DockIcon>
-              <Icons.gitHub className="size-6" />
+              <a href="https://github.com/Diiegor98" target="_blank">
+                <Icons.gitHub className="size-6" />
+              </a>
             </DockIcon>
             <DockIcon>
-              <Icons.linkedin className="size-6" />
+              <a
+                href="https://www.linkedin.com/in/diiegorodriguez/"
+                target="_blank"
+              >
+                <Icons.linkedin className="size-6" />
+              </a>
             </DockIcon>
             <DockIcon>
-              <Icons.mail className="size-6" />
+              <a href="mailto:diiegor98@gmail.com"
+                target="_blank">
+                <Icons.mail className="size-6" />
+              </a>
             </DockIcon>
             <DockIcon>
               <p className="font-extrabold">CV</p>

@@ -23,6 +23,8 @@ import { Mail } from "lucide-react";
 import { useState, useEffect } from "react";
 
 function Header() {
+
+  //Estado para manejar la visibilidad de la NavBar
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
 
@@ -49,6 +51,7 @@ function Header() {
   }, [lastScrollY]);
 
   return (
+
     <div
       className={`fixed bg-background top-0 left-0 w-full z-50 flex items-center transition-transform duration-300 justify-between px-4 py-2 md:px-8 md:py-4 ${
         isVisible ? "translate-y-0" : "-translate-y-full"

@@ -6,7 +6,7 @@ function AboutCards() {
   return (
     <div className="flex flex-col flex-wrap items-center justify-center gap-4 sm:flex-row">
       <BlurFade delay={0.75} inView>
-        <Card className="flex flex-col items-center justify-center text-center h-56 sm:w-72 hover:scale-105 duration-300 cursor-pointer">
+        <Card className="flex flex-col items-center justify-center text-center h-56 sm:w-72 cursor-pointer">
           <TabletSmartphone size={40} color="#2563eb" />
           <CardTitle className="tracking-wide text-xl my-2 font-bold">
             Diseño Responsivo
@@ -18,7 +18,7 @@ function AboutCards() {
         </Card>{" "}
       </BlurFade>
       <BlurFade delay={1} inView>
-        <Card className="flex flex-col items-center justify-center text-center h-56 sm:w-72 hover:scale-105 duration-300 cursor-pointer">
+        <Card className="flex flex-col items-center justify-center text-center h-56 sm:w-72 cursor-pointer">
           <Users size={40} color="#2563eb" />
           <CardTitle className="tracking-wide text-xl my-2 font-bold">
             Soft Skills
@@ -30,7 +30,7 @@ function AboutCards() {
         </Card>
       </BlurFade>
       <BlurFade delay={1.25} inView>
-        <Card className="flex flex-col items-center justify-center text-center h-56 sm:w-72 hover:scale-105 duration-300 cursor-pointer">
+        <Card className="flex flex-col items-center justify-center text-center h-56 sm:w-72 cursor-pointer">
           <BookOpenCheck size={40} color="#2563eb" />
           <CardTitle className="tracking-wide text-xl my-2 font-bold">
             Autodidacta
