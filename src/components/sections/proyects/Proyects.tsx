@@ -15,7 +15,7 @@ import PulsatingButton from "@/components/magicui/pulsating-button";
 
 function Proyects() {
   return (
-    <div className="px-4 py-8 sm:px-4 flex justify-center">
+    <div className="px-4 py-8 sm:px-4 flex justify-center shadow-md">
       <div className="max-w-[960px] w-full ">
         <BlurFade delay={0.25} inView>
           <h4 className="mb-2 font-bold text-blue-600">¿Que realicé?</h4>{" "}
