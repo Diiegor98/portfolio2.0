@@ -12,7 +12,7 @@ function AboutCards() {
             Diseño Responsivo
           </CardTitle>
           <CardContent className="p-2">
-            Diseños responsivos adaptables a cualquier dispositivo, brinando una
+            Diseños responsivos adaptables a cualquier dispositivo, brindando una
             experiencia de usuario atractiva.
           </CardContent>
         </Card>{" "}

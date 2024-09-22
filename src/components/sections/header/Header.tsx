@@ -148,7 +148,7 @@ function Header() {
               </Button>
             </a>
             <a
-              href="#proyects"
+              href="#projects"
               className="text-lg font-medium hover:underline underline-offset-4"
             >
               <Button variant="ghost">

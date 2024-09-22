@@ -4,7 +4,7 @@ import { Formulario } from "./Formulario";
 
 function Contact() {
   return (
-    <div className="px-4 py-8 sm:px-4 flex justify-center">
+    <div id="contact" className="px-4 py-8 sm:px-4 flex justify-center">
       <div className="max-w-[960px] w-full ">
         <BlurFade delay={0.25} inView>
           <h4 className="mb-2 font-bold text-blue-600">¿Trabajamos juntos?</h4>{" "}
