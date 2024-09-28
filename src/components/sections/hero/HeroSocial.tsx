@@ -1,6 +1,7 @@
 import BlurFade from "@/components/magicui/blur-fade";
 import { Dock, DockIcon } from "@/components/magicui/dock";
 export type IconProps = React.HTMLAttributes<SVGElement>;
+import pdfcv from "../../../pdf/cvDiegoRodriguez.pdf"
 
 export default function HeroSocial() {
   return (
@@ -28,7 +29,7 @@ export default function HeroSocial() {
               </a>
             </DockIcon>
             <DockIcon>
-              <p className="font-extrabold">CV</p>
+              <a href={pdfcv} download="cv-DiegoRodriguez" className="font-extrabold">CV</a>
             </DockIcon>
           </Dock>
         </div>
